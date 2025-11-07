@@ -1,4 +1,4 @@
-############################### S2 Composites - Hyperparameter Tuning with Nested spatial CV (BlockKFold) and testing ##################################### --- import standard e scientifici ---
+############################### S2 Composites - Hyperparameter Tuning with Nested spatial CV (BlockKFold) and testing ##################################### 
 # 1. Packages import
 import json, os
 import numpy as np
@@ -216,4 +216,5 @@ logprint("\n== Final params to use in GEE ==")
 logprint(best_params)  # print the dictionary of final parameters
 
 logf.close()  # closes the log file
+
 print(f"\n All saved")
